@@ -54,6 +54,7 @@ stateManagement:
         createdDate:
           type: datetime
           description: To store the creation date
+          primarykey: Yes
       required:
     retentionVersions: "10"
   updateStrategyOptions:
