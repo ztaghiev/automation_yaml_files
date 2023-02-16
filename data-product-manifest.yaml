@@ -69,3 +69,10 @@ stateManagement:
         - nothing
 transformation:
   sql: SELECT * FROM usersS3
+outputPort:
+  channels:
+    - channelType: REST-API
+      queryType: SQL
+    - channelType: JDBC
+      queryType: SQL
+  
