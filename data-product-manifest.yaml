@@ -55,8 +55,6 @@ stateManagement:
           type: datetime
           description: To store the creation date
       required:
-        - legal_entity
-        - store_group_name
     retentionVersions: "10"
   updateStrategyOptions:
     - entityRef: urn:dv:datasource:6d4714c3
