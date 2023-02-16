@@ -50,7 +50,10 @@ stateManagement:
           type: number
           description: ID of the property
         store_group_name:
-          type: 
+          type: String
+        createdDate:
+          type: datetime
+          description: To store the creation date
       required:
         - legal_entity
         - store_group_name
