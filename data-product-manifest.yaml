@@ -65,9 +65,3 @@ stateManagement:
         - nothing
 transformation:
   sql: SELECT * FROM usersS3
-outputPort:
-  channels:
-    - channelType:
-      queryType: 
-    - channelType: 
-      queryType:
