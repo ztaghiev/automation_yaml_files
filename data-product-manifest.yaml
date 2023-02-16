@@ -1,7 +1,7 @@
 ---
 version: 0.0.1
 discoveryPort:
-  name: Property rental of houses in madrid
+  name: Property rental of houses in madrid - Webhooks update
   description: The data product provides average house rental rates in Madrid by
     house type (Pisos, Aticos, Duplex, etc)
   category: customer
@@ -40,7 +40,7 @@ inputPorts:
         - store_group_name
 stateManagement:
   alias: usersS3
-  refreshInterval: 00 10 * * 1-5
+  refreshInterval: 30 10 * * 1-5
   updateStrategy: append
   productStoreState:
     logicalSchema:
