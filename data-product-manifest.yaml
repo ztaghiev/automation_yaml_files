@@ -49,11 +49,15 @@ stateManagement:
         legal_entity:
           type: number
           description: ID of the property
-        store_group_name:
+        store_name:
           type: String
+        store_id:
+          type: number
         createdDate:
           type: datetime
           description: To store the creation date
+        expiry_date:
+          type: datetime
       required:
         - legal_entity
     retentionVersions: "10"
