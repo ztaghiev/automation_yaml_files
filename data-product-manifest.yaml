@@ -55,7 +55,7 @@ stateManagement:
           type: datetime
           description: To store the creation date
       required:
-        - expirydate
+        - legal_entity
     retentionVersions: "10"
   updateStrategyOptions:
     - entityRef: urn:dv:datasource:6d4714c3
@@ -67,7 +67,7 @@ transformation:
   sql: SELECT * FROM usersS3
 outputPort:
   channels:
-    - channelType: REST-API
-      queryType: SQL
-    - channelType: JDBC
-      queryType: SQL
+    - channelType:
+      queryType: 
+    - channelType: 
+      queryType:
