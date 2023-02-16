@@ -54,8 +54,8 @@ stateManagement:
         createdDate:
           type: datetime
           description: To store the creation date
-          primarykey: Yes
       required:
+        - expirydate
     retentionVersions: "10"
   updateStrategyOptions:
     - entityRef: urn:dv:datasource:6d4714c3
